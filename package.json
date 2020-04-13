@@ -1,16 +1,15 @@
 {
-  "name": "codepractice",
+  "name": "danscode",
   "version": "1.0.0",
-  "description": "code practice ",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Heacock",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
