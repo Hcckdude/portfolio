@@ -1,0 +1,5 @@
+
+
+function intruderAlertFunction(){
+    alert("BURN!");
+}
