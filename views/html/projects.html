@@ -44,6 +44,14 @@
         grid-row-gap:1em;
         grid-auto-rows: minmax(100px, auto);
     }
+
+    .nested{
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-auto-rows: 70px;
+        grid-gap:1em;
+    }
+
     .wrapper > div{
         background: #eee;
         padding:1em;
@@ -51,6 +59,12 @@
     .wrapper > div:nth-child(odd){
         background:#ddd;
     }
+
+    .nested > div{
+        border:#333 1px solid;
+        padding:1em;
+    }
+
 </style>
 
 <body>
@@ -79,22 +93,16 @@
             vitae dicta consectetur quam quidem consequatur
             blanditiis reprehenderit distinctio!
         </div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Facilis inventore id 
-            voluptates obcaecati, ab beatae? Tempora 
-            vero illo possimus eum odit soluta nesciunt
-            repellendus aperiam cum nostrum praesentium
-            quia inventore vel nemo pariatur adipisci 
-            iste harum officiis repudiandae, accusamus 
-            labore quasi animi corrupti recusandae! 
-            Tenetur odit mollitia, deserunt nulla eos
-            commodi officiis eius. Distinctio ea et 
-            ratione non minima quisquam dolorem alias 
-            rerum voluptatibus modi aspernatur molestiae,
-            cupiditate assumenda atque aliquam quibusdam 
-            consequuntur possimus, vel officia nobis tempora! 
-            Placeat, nam!
+        <div class="nested">
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
+            <div>Lorem</div>
         </div>
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing 
